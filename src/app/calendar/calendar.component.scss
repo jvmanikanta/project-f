@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+.calendar-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.dates-container {
+    display: flex;
+    flex-direction: row;
+    position: absolute;
+    height: 500px;
+}
+
+.date {
+    border: solid 1px rgb(194, 193, 193);
+    width: 3.2rem;
+    text-align: center;
+}
+
+.current-date {
+    border: solid 1px rgb(194, 193, 193);
+    width: 3.2rem;
+    text-align: center;
+    background-color: rgb(206, 219, 16);
+}
+
+.month-name {
+    font-weight: normal;
+    margin-right: 10px;
+}
+
+.date-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+}
+
+.button-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.select-button {
+    background-color: rgb(206, 219, 16);
+}
+
+.arrow-button {
+    cursor: pointer;
+    margin-right: 25px;
+}
